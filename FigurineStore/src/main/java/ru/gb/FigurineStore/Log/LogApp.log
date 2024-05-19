@@ -1,0 +1,191 @@
+2024-05-19T14:02:05.289+03:00  INFO 9376 --- [main] r.g.F.FigurineStoreApplication           : Starting FigurineStoreApplication using Java 21.0.1 with PID 9376 (D:\GeekBrains\Spring\StoreWOW\FigurineStore\target\classes started by Андрей in D:\GeekBrains\Spring\StoreWOW\FigurineStore)
+2024-05-19T14:02:05.292+03:00  INFO 9376 --- [main] r.g.F.FigurineStoreApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-19T14:02:06.385+03:00  INFO 9376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-19T14:02:06.479+03:00  INFO 9376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2024-05-19T14:02:07.536+03:00  INFO 9376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-19T14:02:07.558+03:00  INFO 9376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-19T14:02:07.558+03:00  INFO 9376 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-19T14:02:07.654+03:00  INFO 9376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-19T14:02:07.655+03:00  INFO 9376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2286 ms
+2024-05-19T14:02:07.911+03:00  INFO 9376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-19T14:02:08.187+03:00  INFO 9376 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2024-05-19T14:02:08.190+03:00  INFO 9376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-19T14:02:08.284+03:00  INFO 9376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-19T14:02:08.362+03:00  INFO 9376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-19T14:02:08.411+03:00  INFO 9376 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-19T14:02:08.749+03:00  INFO 9376 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-19T14:02:08.817+03:00  WARN 9376 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-19T14:02:09.897+03:00  INFO 9376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-19T14:02:09.934+03:00  INFO 9376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19T14:02:10.501+03:00  INFO 9376 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-19T14:02:10.680+03:00  WARN 9376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-19T14:02:11.093+03:00  INFO 9376 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45a40353, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33efa7d4, org.springframework.security.web.context.SecurityContextHolderFilter@58fadccb, org.springframework.security.web.header.HeaderWriterFilter@2f70d78c, org.springframework.web.filter.CorsFilter@fe337, org.springframework.security.web.authentication.logout.LogoutFilter@768f2398, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41ae9f11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43d2c8e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8bb5c2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@356cb230, org.springframework.security.web.access.ExceptionTranslationFilter@735b1ad2, org.springframework.security.web.access.intercept.AuthorizationFilter@481f698f]
+2024-05-19T14:02:11.567+03:00  INFO 9376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-19T14:02:11.586+03:00  INFO 9376 --- [main] r.g.F.FigurineStoreApplication           : Started FigurineStoreApplication in 7.033 seconds (process running for 7.772)
+2024-05-19T14:03:05.536+03:00  INFO 9376 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-19T14:03:05.537+03:00  INFO 9376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-19T14:03:05.539+03:00  INFO 9376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-19T14:03:12.645+03:00  INFO 9376 --- [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: anonymousUser
+Метод: getProductById
+Параметры: [2]
+Время (мс): 18
+--------------------------------------------
+2024-05-19T14:03:18.318+03:00  INFO 9376 --- [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: anonymousUser
+Метод: getPageById
+Параметры: [2]
+Время (мс): 5
+--------------------------------------------
+2024-05-19T14:03:22.093+03:00  INFO 9376 --- [http-nio-8080-exec-9] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: anonymousUser
+Метод: getPageById
+Параметры: [1]
+Время (мс): 4
+--------------------------------------------
+2024-05-19T14:03:35.083+03:00  INFO 9376 --- [http-nio-8080-exec-8] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:03:38.535+03:00  INFO 9376 --- [http-nio-8080-exec-10] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:03:39.073+03:00  INFO 9376 --- [http-nio-8080-exec-10] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: pay
+Параметры: [http://localhost:8081/api/pay, DTOPyaProduct(idUser=1, amount=1590, bankMethodPayment=MASTERCARD)]
+Время (мс): 536
+--------------------------------------------
+2024-05-19T14:03:46.477+03:00  INFO 9376 --- [http-nio-8080-exec-4] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 2
+--------------------------------------------
+2024-05-19T14:03:47.733+03:00  INFO 9376 --- [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getPageById
+Параметры: [1, 1]
+Время (мс): 18
+--------------------------------------------
+2024-05-19T14:03:47.735+03:00  INFO 9376 --- [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:03:52.973+03:00  INFO 9376 --- [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getPageById
+Параметры: [1, 1]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:03:52.975+03:00  INFO 9376 --- [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 2
+--------------------------------------------
+2024-05-19T14:05:01.442+03:00  INFO 9376 --- [http-nio-8080-exec-1] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [2]
+Время (мс): 3
+--------------------------------------------
+2024-05-19T14:05:03.225+03:00  INFO 9376 --- [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:05:03.234+03:00  INFO 9376 --- [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: pay
+Параметры: [http://localhost:8081/api/pay, DTOPyaProduct(idUser=2, amount=1590, bankMethodPayment=MASTERCARD)]
+Время (мс): 9
+--------------------------------------------
+2024-05-19T14:05:04.795+03:00  INFO 9376 --- [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:05:09.357+03:00  INFO 9376 --- [http-nio-8080-exec-10] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getPageById
+Параметры: [1, 2]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:05:09.358+03:00  INFO 9376 --- [http-nio-8080-exec-10] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:05:18.091+03:00  INFO 9376 --- [http-nio-8080-exec-6] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [3]
+Время (мс): 2
+--------------------------------------------
+2024-05-19T14:05:19.803+03:00  INFO 9376 --- [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [3]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:05:19.814+03:00  INFO 9376 --- [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: pay
+Параметры: [http://localhost:8081/api/pay, DTOPyaProduct(idUser=2, amount=2300, bankMethodPayment=MASTERCARD)]
+Время (мс): 10
+--------------------------------------------
+2024-05-19T14:08:05.127+03:00  INFO 9376 --- [http-nio-8080-exec-4] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user2
+Метод: getProductById
+Параметры: [3]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:08:07.302+03:00  INFO 9376 --- [http-nio-8080-exec-8] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user2
+Метод: getProductById
+Параметры: [3]
+Время (мс): 1
+--------------------------------------------
+2024-05-19T14:08:07.310+03:00  INFO 9376 --- [http-nio-8080-exec-8] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user2
+Метод: pay
+Параметры: [http://localhost:8081/api/pay, DTOPyaProduct(idUser=3, amount=2300, bankMethodPayment=MASTERCARD)]
+Время (мс): 8
+--------------------------------------------
+2024-05-19T14:09:16.064+03:00  INFO 9376 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19T14:09:16.070+03:00  INFO 9376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-19T14:09:16.073+03:00  INFO 9376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
